@@ -2,7 +2,7 @@
   "name": "jerryslib",
   "version": "1.0.0",
   "description": "P8",
-  "main": "base.js",
+  "main": "base.es",
   "scripts": {
     "test": "jest",
     "coverage": "jest --coverage",
