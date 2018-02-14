@@ -1,2 +1,2 @@
-# jerryslib常用函数分装库
+# jerryslib常用函数封装库
 
