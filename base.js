@@ -1,4 +1,4 @@
-class jerryslib {
+class Jerryslib {
   /**
    * 获取指定的 querystring 中指定 name 的 value
    * @param {String} name
@@ -138,4 +138,4 @@ class jerryslib {
     return a + b
   }
 }
-export default new jerryslib
+export default new Jerryslib

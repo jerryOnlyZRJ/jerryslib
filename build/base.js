@@ -8,12 +8,12 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-var jerryslib = function () {
-  function jerryslib() {
-    _classCallCheck(this, jerryslib);
+var Jerryslib = function () {
+  function Jerryslib() {
+    _classCallCheck(this, Jerryslib);
   }
 
-  _createClass(jerryslib, [{
+  _createClass(Jerryslib, [{
     key: 'query',
 
     /**
@@ -185,7 +185,8 @@ var jerryslib = function () {
     }
   }]);
 
-  return jerryslib;
+  return Jerryslib;
 }();
 
-exports.default = new jerryslib();
+var jerryslib = new  Jerryslib();
+module.exports = jerryslib;
